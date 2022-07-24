@@ -16,7 +16,6 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
-    background-image: url("../images/hero-img.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -55,30 +54,25 @@ header a {
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    background-position: 70%;
-    height: 300px;
+    height: 800px;
     width: 100%;
     
   }
 
- 
-  .hero h1 {
+  .hero-text {
     color: #A5D6E4;
     text-shadow: 1px 1px black;
-    
-  }
-
-.hero p {
-    color: #A5D6E4;
-    text-shadow: 1px 1px black;
+    text-align: right;
+    position: absolute;
+    justify-content: right;
+    padding: 300px ;
 }
 
 .about-me {
   color: #E68244;
   width: 35%;
-    text-align: right;
-    margin: 5%;
-  
+  text-align: right;
+  margin: 5%;
   
 }
 
@@ -87,13 +81,33 @@ header a {
 
 }
 
+.about-me-img {
+  height: 400px;
+  width: 320px;
+  border-radius: 75%;
+  position: absolute;
+  left: 850px;
+  bottom: -375px
+}
+
 .my-work {
   color: #FBD4D5;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .my-work h4 {
   text-shadow: 1px 1px black;
+  text-align: center;
+
 }
+
+.my-work-img {
+  height: 300px;
+  width: 230px;
+}
+
 
 .footer {
   background-color: #57F1B1;
