@@ -66,6 +66,11 @@ header a {
     padding: 25%;
 }
 
+.social-media {
+  height: 20px;
+  width: 20px;
+}
+
 .about-me {
   color: #E68244;
   width: 35%;
@@ -106,8 +111,15 @@ header a {
 }
 
 .my-work-img {
-  height: 300px;
-  width: 230px;
+  height: 200px;
+  width: 615px;
+}
+
+#first-project-img {
+  height: 95%;
+  width: 59%;
+  position: relative;
+  left: 21%;
 }
 
 
