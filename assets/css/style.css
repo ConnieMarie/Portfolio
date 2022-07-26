@@ -53,7 +53,6 @@ header a {
     justify-content:  left;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-attachment: fixed;
     height: 800px;
     width: 100%;
     
@@ -63,9 +62,8 @@ header a {
     color: #A5D6E4;
     text-shadow: 1px 1px black;
     text-align: right;
-    position: absolute;
-    justify-content: right;
-    padding: 300px ;
+    position: relative;
+    padding: 25%;
 }
 
 .about-me {
@@ -82,12 +80,12 @@ header a {
 }
 
 .about-me-img {
-  height: 400px;
-  width: 320px;
+  height: 45%;
+  width: 25%;
   border-radius: 75%;
   position: absolute;
-  left: 850px;
-  bottom: -375px
+  left: 55%;
+  bottom: -32%;
 }
 
 .my-work {
@@ -95,12 +93,16 @@ header a {
   display:flex;
   justify-content: space-around;
   flex-wrap: wrap;
+
 }
 
 .my-work h4 {
   text-shadow: 1px 1px black;
   text-align: center;
+}
 
+.my-work a {
+  color: #57F1B1;
 }
 
 .my-work-img {
@@ -123,7 +125,58 @@ header a {
 .contact-me {
   color: #210A72;
   text-shadow: 1px 1px black;
+}
 
+.contact-me h4 a {
+  color: #210A72;
+  text-shadow: none;
 }
 
 
+@media screen and (max-width: 980px) {
+  .hero {
+    width: 100%;
+  }
+
+  .my-work-img {
+    height: 250px;
+    width: 200px;
+  }
+
+  .about-me-img {
+    height: 45%;
+    width: 30%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+   .hero-text {
+    padding: 35%;
+   }
+
+   .about-me-img {
+    height: 45%;
+    width: 35%;
+    left: 52%;
+   }
+
+   .my-work-img {
+    height: 315px;
+    width: 245px;
+   }
+}
+
+@media screen and (max-width: 575px) {
+   .hero-text {
+    padding: 30%;
+    bottom: -12%;
+   }
+
+   .about-me-img {
+    height: 39%;
+    width: 39%;
+    left: 52%;
+    top: 100%;
+   }
+}
