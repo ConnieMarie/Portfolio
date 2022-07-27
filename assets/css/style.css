@@ -160,6 +160,11 @@ header a {
     width: 30%;
   }
 
+  .my-work-img {
+    height: 250px;
+    width: 485px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -174,8 +179,8 @@ header a {
    }
 
    .my-work-img {
-    height: 315px;
-    width: 245px;
+    height: 200px;
+    width: 380px;
    }
 }
 
@@ -191,4 +196,16 @@ header a {
     left: 52%;
     top: 100%;
    }
+
+   #first-project-img {
+    height: 85%;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.my-work-img {
+  height: 143px;
+  width: 285px;
+  position: relative;
 }
